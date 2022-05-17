@@ -39,3 +39,26 @@ font-weight: bolder;
   color: white;
 }
 
+h1{
+  color: white;
+  padding: auto;
+  -webkit-animation: alternate;
+}
+
+p{
+  color: white;
+  padding: auto;
+  -webkit-animation: alternate;
+}
+
+h2{
+  color: white;
+  padding: auto;
+  -webkit-animation: alternate;
+}
+
+h3 {
+  color: white;
+  padding: auto;
+  -webkit-animation: alternate;
+}
