@@ -40,25 +40,25 @@ font-weight: bolder;
 }
 
 h1{
-  color: white;
+  color: black;
   padding: auto;
   -webkit-animation: alternate;
 }
 
 p{
-  color: white;
+  color: black;
   padding: auto;
   -webkit-animation: alternate;
 }
 
 h2{
-  color: white;
+  color: black;
   padding: auto;
   -webkit-animation: alternate;
 }
 
 h3 {
-  color: white;
+  color: black;
   padding: auto;
   -webkit-animation: alternate;
 }
