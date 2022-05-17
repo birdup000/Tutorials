@@ -9,13 +9,31 @@
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yegor256/tacit@gh-pages/tacit-css-1.5.5.min.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
 </head>
 <body>
     <div class="topnav">
         <a class="active" href="index.html">Home</a>
         <a href="about.html">about</a>
         </div>
-        <h1 class="animate__animated animate__bounce">Website Creation</h1>
+        <div class="animate__animated animate__bounce">
+        
+            <h1 class="text-3xl font-bold underline text-clifford">
+                Hello world!
+              </h1>
+
+        
+        </div>
 </body>
 </html>
