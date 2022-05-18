@@ -5,7 +5,7 @@ font-weight: bolder;
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: rgb(37, 37, 37);
   overflow: hidden;
   text-align: center;
   border-radius: 5px;
