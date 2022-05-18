@@ -1,2 +1,2 @@
-# web
-Webhost for greengecko.ml
+# Web
+Webhost for https://greengecko.ml
