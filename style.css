@@ -75,3 +75,23 @@ h3 {
   color: white;
   padding: 15px;
 }
+
+.grid-container {
+  display: grid;
+  column-gap: 50px;
+  padding: 20px;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+}
