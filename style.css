@@ -95,3 +95,14 @@ h3 {
     'menu main main main right right'
     'menu footer footer footer footer footer';
 }
+
+hr{
+  height: 5px;
+  background-color:black;
+  border: none;
+}
+
+.centertxt {
+
+  text-align: center;
+}
