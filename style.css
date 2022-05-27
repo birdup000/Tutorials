@@ -104,3 +104,8 @@ hr{
   text-align: center;
 }
 
+.hoverp a:hover{
+  color:rgb(102, 102, 102)
+
+
+}

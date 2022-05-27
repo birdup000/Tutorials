@@ -54,6 +54,7 @@ p{
  margin-left: 5px;
  margin-right: 5px;
 
+
 }
 
 h2{
@@ -124,3 +125,10 @@ h3 {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+
+.hoverp a:hover{
+  color:rgb(102, 102, 102)
+  
+  
+  }
