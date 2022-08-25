@@ -90,6 +90,11 @@ h3 {
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
+.sidenav:hover{
+  background-color: #111;
+  color: #111;
+}
+
 /* The navigation menu links */
 .sidenav a {
   padding: 8px 8px 8px 32px;
@@ -99,6 +104,8 @@ h3 {
   display: block;
   transition: 0.3s;
 }
+
+
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
