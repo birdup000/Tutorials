@@ -65,7 +65,14 @@
                        
                         <br>
                         <p>Hello in this tutorial I'll be giving instructions to remove apps through powershell</p>
+                           
                          <br>
+                          <p>You can remove Windows apps/appxpackages through powershell. </p>
+                              <p>First we need to retrive appxpackage package full name to do this we'll type this command in powershell (administrative mode) get-appxpackage |findstr (appxpackagename)</p>
+                               <p>it should show info like the package location ,package full name. What we want is the package full name so we can specify what appxpackage we specifically want to remove so you'll want to copy the package full name and then to remove just enter remove-appxpackage -package (package full name here)
+                              
+                               </p>
+                               <p>When you run this command you should see the specific app removed in your system.(Please note that some appxpackages aren't removable by this method)</p>
                         </div>
                   <br>
                   <br>
