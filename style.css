@@ -1,113 +1,92 @@
-body{
-background-color:  #1b1b21;
-font-weight: bolder;
-
-
-}
-
-/* Add a black background color to the top navigation */
-.topnav {
+body {
+  background-color: #1b1b21;
+  font-weight: bolder;
+  }
+  
+  /* Top navigation */
+  .topnav {
   background-color: rgb(37, 37, 37);
   overflow: hidden;
   text-align: center;
   border-radius: 5px;
-
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  color: #f2f2f2;
-  text-align: center;
-  padding: 12px 14px;
-  text-decoration: none;
-  font-size: 16px;
-  -webkit-box-shadow: 5px 5px 5px #5ec0c2;
-          box-shadow: 5px 5px 5px #5ec0c2;
-  width: 100px;
+  }
+  
+  .topnav a {
   display: inline-block;
+  width: 100px;
+  padding: 12px 14px;
+  margin: 5px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #f2f2f2;
   border-radius: 5px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
+  box-shadow: 5px 5px 5px #5ec0c2;
+  }
+  
+  .topnav a:hover {
   background-color: #ddd;
   color: black;
-  border-radius: 5px;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
+  }
+  
+  .topnav a.active {
   background-color: #414141;
   color: white;
-}
-
-h1{
-  color: white;
-  padding: auto;
-  
-}
-
-p{
-  color: white;
-  padding: auto;
- font-size: 20px;
-
-}
-
-h2{
-  color: white;
-  padding: auto;
-  
-}
-
-h3 {
-  /*  #edb15a */
-  color:white;
-  padding: auto;
   }
-
-
-.navdirect{
-
+  
+  /* Headings and paragraphs */
+  h1, h2, h3, p {
   color: white;
-  padding: 15px;
-}
-
-.grid-container {
+  padding: 0;
+  margin: 0;
+  }
+  
+  p {
+  font-size: 20px;
+  }
+  
+  /* Grid layout */
+  .grid-container {
   display: grid;
-  column-gap: 50px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto auto auto;
+  grid-column-gap: 50px;
   padding: 20px;
-}
-
-.item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
-
-.grid-container {
-  display: grid;
-  grid-template:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
-}
-
-hr{
+  }
+  
+  .header {
+  grid-area: header;
+  }
+  
+  .menu {
+  grid-area: menu;
+  }
+  
+  .main {
+  grid-area: main;
+  }
+  
+  .right {
+  grid-area: right;
+  }
+  
+  .footer {
+  grid-area: footer;
+  }
+  
+  /* Horizontal rule */
+  hr {
   height: 5px;
-  background-color:black;
+  background-color: black;
   border: none;
-}
-
-.centertxt {
-
+  }
+  
+  /* Centered text */
+  .centertxt {
   text-align: center;
-}
-
-.hoverp a:hover{
-  color:rgb(102, 102, 102)
-
-
-}
-
-
+  }
+  
+  /* Hover effect for links */
+  .hoverp a:hover {
+  color: rgb(102, 102, 102);
+  }
